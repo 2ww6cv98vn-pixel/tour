@@ -304,3 +304,33 @@ footer{
     text-align:center;
     padding:25px;
 }
+
+/* Dark Mode */
+
+body.dark{
+    background:#111827;
+    color:#ffffff;
+}
+
+body.dark header{
+    background:#1f2937;
+}
+
+body.dark .card,
+body.dark .member,
+body.dark form,
+body.dark .item{
+    background:#1f2937;
+    color:#ffffff;
+}
+
+body.dark input,
+body.dark textarea{
+    background:#374151;
+    color:white;
+    border:1px solid #555;
+}
+
+body.dark footer{
+    background:#000;
+}
